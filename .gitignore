@@ -1,0 +1,20 @@
+# Runtime never needs an install (the stack invariant). Dev-only tooling goes here.
+node_modules/
+
+# State and artifacts
+data/
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+coverage/
+
+# Environment
+.env
+.env.*
+.arena/
+
+# Editor / OS
+.DS_Store
+*.swp

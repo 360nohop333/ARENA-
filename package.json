@@ -1,0 +1,20 @@
+{
+  "name": "arena-saas",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Greenfield SaaS on free tooling only. Product pending MSG 003 (see docs/DEBATE.md).",
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "scripts": {
+    "test": "node --test",
+    "check:imports": "node tools/check-imports.mjs",
+    "typecheck": "tsc --noEmit",
+    "start": "node src/main.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^7.0.2"
+  }
+}
